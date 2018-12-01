@@ -3,5 +3,19 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%;
-  background: black;
+}
+
+#wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: #000060;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+img {
+  height: 90%;
+  min-width: 50%;
 }
