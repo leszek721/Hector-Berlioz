@@ -8,14 +8,50 @@ html, body {
 #wrapper {
   width: 100vw;
   height: 100vh;
-  background: #000060;
+  background: #1d1ddd;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
+#main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#arrows {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  z-index: 1;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+}
+
+#right-arrow {
+  width: 10%;
+  height: 100%;
+  background: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 50px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#right-arrow:hover {
+  opacity: 0.8;
+}
 
 img {
   height: 90%;
-  min-width: 50%;
 }
